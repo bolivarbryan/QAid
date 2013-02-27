@@ -13,9 +13,6 @@
 		68900B6E16D91F70009B5344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68900B6C16D91F70009B5344 /* InfoPlist.strings */; };
 		68900B7016D91F70009B5344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68900B6F16D91F70009B5344 /* main.m */; };
 		68900B7416D91F70009B5344 /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68900B7316D91F70009B5344 /* BBAppDelegate.m */; };
-		68900B7616D91F70009B5344 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68900B7516D91F70009B5344 /* Default.png */; };
-		68900B7816D91F70009B5344 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68900B7716D91F70009B5344 /* Default@2x.png */; };
-		68900B7A16D91F70009B5344 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68900B7916D91F70009B5344 /* Default-568h@2x.png */; };
 		68900B7D16D91F70009B5344 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68900B7B16D91F70009B5344 /* MainStoryboard.storyboard */; };
 		68900B8016D91F70009B5344 /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68900B7F16D91F70009B5344 /* BBViewController.m */; };
 		68900B8816D91F71009B5344 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68900B8716D91F71009B5344 /* SenTestingKit.framework */; };
@@ -23,6 +20,16 @@
 		68900B8A16D91F71009B5344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68900B6516D91F70009B5344 /* Foundation.framework */; };
 		68900B9216D91F71009B5344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68900B9016D91F71009B5344 /* InfoPlist.strings */; };
 		68900B9516D91F71009B5344 /* QAidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68900B9416D91F71009B5344 /* QAidTests.m */; };
+		68900BA116D93216009B5344 /* BBCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68900BA016D93216009B5344 /* BBCompareViewController.m */; };
+		68900BA416D94A22009B5344 /* SecondImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68900BA316D94A21009B5344 /* SecondImage.m */; };
+		68900BA616D957DD009B5344 /* Wallpaper-Background-Wallpaper-Texture-Pattern-Color-Dark-Dark-1136x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68900BA516D957DD009B5344 /* Wallpaper-Background-Wallpaper-Texture-Pattern-Color-Dark-Dark-1136x640.jpg */; };
+		68900BB516D95E91009B5344 /* apple-touch-icon-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 68900BB416D95E90009B5344 /* apple-touch-icon-iphone.png */; };
+		68900FE716DC2483009B5344 /* Grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 68900FE616DC2483009B5344 /* Grid.png */; };
+		68B7CEA616DD802C007C9D49 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7CEA516DD802C007C9D49 /* Default@2x.png */; };
+		68B7CEA816DD8035007C9D49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7CEA716DD8035007C9D49 /* Default.png */; };
+		68B7CEAA16DD8045007C9D49 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7CEA916DD8045007C9D49 /* icon57.png */; };
+		68B7CEAC16DD804A007C9D49 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7CEAB16DD804A007C9D49 /* icon114.png */; };
+		68B7CEAE16DD8060007C9D49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B7CEAD16DD8060007C9D49 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,18 @@
 		68900B9116D91F71009B5344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68900B9316D91F71009B5344 /* QAidTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAidTests.h; sourceTree = "<group>"; };
 		68900B9416D91F71009B5344 /* QAidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAidTests.m; sourceTree = "<group>"; };
+		68900B9F16D93216009B5344 /* BBCompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBCompareViewController.h; path = Compare/BBCompareViewController.h; sourceTree = "<group>"; };
+		68900BA016D93216009B5344 /* BBCompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBCompareViewController.m; path = Compare/BBCompareViewController.m; sourceTree = "<group>"; };
+		68900BA216D94A21009B5344 /* SecondImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondImage.h; sourceTree = "<group>"; };
+		68900BA316D94A21009B5344 /* SecondImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondImage.m; sourceTree = "<group>"; };
+		68900BA516D957DD009B5344 /* Wallpaper-Background-Wallpaper-Texture-Pattern-Color-Dark-Dark-1136x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wallpaper-Background-Wallpaper-Texture-Pattern-Color-Dark-Dark-1136x640.jpg"; sourceTree = "<group>"; };
+		68900BB416D95E90009B5344 /* apple-touch-icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-iphone.png"; sourceTree = "<group>"; };
+		68900FE616DC2483009B5344 /* Grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grid.png; sourceTree = "<group>"; };
+		68B7CEA516DD802C007C9D49 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		68B7CEA716DD8035007C9D49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		68B7CEA916DD8045007C9D49 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		68B7CEAB16DD804A007C9D49 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		68B7CEAD16DD8060007C9D49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +106,12 @@
 		68900B5716D91F6F009B5344 = {
 			isa = PBXGroup;
 			children = (
+				68B7CEAD16DD8060007C9D49 /* Default-568h@2x.png */,
+				68B7CEAB16DD804A007C9D49 /* icon114.png */,
+				68B7CEA916DD8045007C9D49 /* icon57.png */,
+				68B7CEA716DD8035007C9D49 /* Default.png */,
+				68B7CEA516DD802C007C9D49 /* Default@2x.png */,
+				68900BB416D95E90009B5344 /* apple-touch-icon-iphone.png */,
 				68900B6916D91F70009B5344 /* QAid */,
 				68900B8D16D91F71009B5344 /* QAidTests */,
 				68900B6216D91F70009B5344 /* Frameworks */,
@@ -117,7 +142,10 @@
 		68900B6916D91F70009B5344 /* QAid */ = {
 			isa = PBXGroup;
 			children = (
+				68900B9E16D931E2009B5344 /* Compare */,
 				68900B7216D91F70009B5344 /* BBAppDelegate.h */,
+				68900BA216D94A21009B5344 /* SecondImage.h */,
+				68900BA316D94A21009B5344 /* SecondImage.m */,
 				68900B7316D91F70009B5344 /* BBAppDelegate.m */,
 				68900B7B16D91F70009B5344 /* MainStoryboard.storyboard */,
 				68900B7E16D91F70009B5344 /* BBViewController.h */,
@@ -130,6 +158,8 @@
 		68900B6A16D91F70009B5344 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68900FE616DC2483009B5344 /* Grid.png */,
+				68900BA516D957DD009B5344 /* Wallpaper-Background-Wallpaper-Texture-Pattern-Color-Dark-Dark-1136x640.jpg */,
 				68900B6B16D91F70009B5344 /* QAid-Info.plist */,
 				68900B6C16D91F70009B5344 /* InfoPlist.strings */,
 				68900B6F16D91F70009B5344 /* main.m */,
@@ -158,6 +188,15 @@
 				68900B9016D91F71009B5344 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68900B9E16D931E2009B5344 /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				68900B9F16D93216009B5344 /* BBCompareViewController.h */,
+				68900BA016D93216009B5344 /* BBCompareViewController.m */,
+			);
+			name = Compare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,10 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				68900B6E16D91F70009B5344 /* InfoPlist.strings in Resources */,
-				68900B7616D91F70009B5344 /* Default.png in Resources */,
-				68900B7816D91F70009B5344 /* Default@2x.png in Resources */,
-				68900B7A16D91F70009B5344 /* Default-568h@2x.png in Resources */,
 				68900B7D16D91F70009B5344 /* MainStoryboard.storyboard in Resources */,
+				68900BA616D957DD009B5344 /* Wallpaper-Background-Wallpaper-Texture-Pattern-Color-Dark-Dark-1136x640.jpg in Resources */,
+				68900BB516D95E91009B5344 /* apple-touch-icon-iphone.png in Resources */,
+				68900FE716DC2483009B5344 /* Grid.png in Resources */,
+				68B7CEA616DD802C007C9D49 /* Default@2x.png in Resources */,
+				68B7CEA816DD8035007C9D49 /* Default.png in Resources */,
+				68B7CEAA16DD8045007C9D49 /* icon57.png in Resources */,
+				68B7CEAC16DD804A007C9D49 /* icon114.png in Resources */,
+				68B7CEAE16DD8060007C9D49 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +318,8 @@
 				68900B7016D91F70009B5344 /* main.m in Sources */,
 				68900B7416D91F70009B5344 /* BBAppDelegate.m in Sources */,
 				68900B8016D91F70009B5344 /* BBViewController.m in Sources */,
+				68900BA116D93216009B5344 /* BBCompareViewController.m in Sources */,
+				68900BA416D94A22009B5344 /* SecondImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +381,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Tatis (TVWJJQH284)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mario Tatis (TVWJJQH284)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -350,6 +397,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -366,7 +415,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Tatis (TVWJJQH284)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mario Tatis (TVWJJQH284)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -374,6 +424,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -382,10 +434,14 @@
 		68900B9916D91F71009B5344 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Tatis (TVWJJQH284)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mario Tatis (TVWJJQH284)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QAid/QAid-Prefix.pch";
 				INFOPLIST_FILE = "QAid/QAid-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,10 +449,14 @@
 		68900B9A16D91F71009B5344 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Tatis (TVWJJQH284)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mario Tatis (TVWJJQH284)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QAid/QAid-Prefix.pch";
 				INFOPLIST_FILE = "QAid/QAid-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1E8E47F-2DA5-49D7-BA20-52093B0B288F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +514,7 @@
 				68900B9A16D91F71009B5344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68900B9B16D91F71009B5344 /* Build configuration list for PBXNativeTarget "QAidTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +523,7 @@
 				68900B9D16D91F71009B5344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
